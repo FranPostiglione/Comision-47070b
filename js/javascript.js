@@ -1,6 +1,10 @@
+
+
+
+
 //let nombre = prompt ('Buscar por nombre')
 //let genero = prompt ('Ingresar genero')
- let year = prompt ('Seleccionar año')
+let year= prompt ('Hola, te invitamos a que escribas una fecha para saber cual fue el mejor juego de ese año')
  //let empresa = prompt ('Ingresar empresa')
 
 
