@@ -1,3 +1,72 @@
-body {
-    background-color: #747578;
+nav {
+    margin-bottom: 50px;
+}
+
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 500px;
+    min-width: 400px;
+    border: black solid 5px;
+}
+
+.img-carrito {
+    height: 40px;
+    width: 40px;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+
+.card {
+    margin-right: 10px;
+}
+
+.card-body {
+    text-align: center;
+    
+    
+}
+
+.card-body a {
+    border-radius: solid 1px black;
+    list-style: none;
+}
+
+.row {
+    padding-left: 3%;
+}
+
+main {
+    background-image: url(../assets/fondo-3.jpeg);
+    background-position: center;
+
+}
+
+img {
+    height: 377px;
+    width: 300px;
+   
+}
+
+.pagination {
+    padding-left: 42%;
+}
+
+tbody img {
+    width: 100px;
+    height: 100px;
 }
