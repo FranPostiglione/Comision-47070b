@@ -1,7 +1,20 @@
-nav {
-    margin-bottom: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Pixelify+Sans&display=swap');
+
+
+
+.navbar-brand {
+    font-size: 50px;
 }
 
+.span-t {
+    font-family: 'Ysabeau SC', sans-serif;
+}
 
 .submenu #carrito {
     display: none;
@@ -47,11 +60,11 @@ ul {
 }
 
 .row {
-    padding-left: 3%;
+    margin-left: 6rem;
 }
 
 main {
-    background-image: url(../assets/fondo-3.jpeg);
+    background-image: url(../assets/fondo-3.jpg);
     background-position: center;
 
 }
@@ -69,4 +82,25 @@ img {
 tbody img {
     width: 100px;
     height: 100px;
+}
+
+.titulo h1{
+    font-family: 'Mate SC', serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+
+.titulo h2 {
+    font-family: 'Mate SC', serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.catalogo-main h2 {
+    font-family: 'Mate SC', serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
 }
