@@ -43,6 +43,10 @@ ul {
     list-style: none;
 }
 
+.link-buscador {
+    font-size: 20px;
+    text-decoration: none;
+}
 
 .card {
     margin-right: 10px;
@@ -55,19 +59,53 @@ ul {
 }
 
 .card-body a {
-    border-radius: solid 1px black;
-    list-style: none;
+    border: solid 2px #645853;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    
 }
 
 .row {
     margin-left: 6rem;
 }
 
-main {
-    background-image: url(../assets/fondo-3.jpg);
-    background-position: center;
-
+.main-catalogo-index {
+    background-image: url(../assets/fondoprueba.jpg);
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center; 
+  height: calc(400vh - 100px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;      
 }
+
+.main-catalogo {
+    background-image: url(../assets/fondoprueba.jpg);
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center; 
+  height: calc(350vh - 100px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.main-catalogo-last {
+    background-image: url(../assets/fondoprueba.jpg);
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center; 
+  height: calc(250vh - 100px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;      
+}
+
 
 img {
     height: 377px;
@@ -77,7 +115,13 @@ img {
 
 .pagination {
     padding-left: 42%;
-}
+    margin-top: 50px;
+    }
+
+.pagination li a {
+    font-size: 30px;
+    
+}   
 
 tbody img {
     width: 100px;
@@ -103,4 +147,31 @@ tbody img {
     color: aliceblue;
     text-align: center;
     font-size: 100px;
+}
+
+/*BUSCADOR*/
+main h1 {
+    font-size: 100px;
+    font-family: 'Mate SC', serif;
+    color: #FFFFF3;
+}
+
+main p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    
+}
+
+.main-buscador {
+    background-image: url(../assets/fondoprueba.jpg);
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center; 
+  height: calc(420vh - 100px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;
 }
